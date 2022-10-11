@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+
+    void first() {
+        int x;
+        cin >> x;
+        cout << x / 100;
+        cout << "\n";
+        cout << x / 10 % 10;
+        cout << "\n";
+        cout << x % 10;
+    }
+    int main() {
+        int a, b, c;
+        cin >> a;
+        cin >> b;
+        cin >> c;
+        bool m1 = a / b;e
+        cout << std::boolalpha << a % b;
+        return 0;
+    }
+
+    void second() {
+        int a;
+        int b;
+        int c;
+        cin >> a;
+        cin >> b;
+        c = a;
+        a = b;
+        b = c;
+        cout << a;
+        cout << "\n";
+        cout << c;
+    }
+    void fourth() {
+        int a, b;
+        cin >> a;
+        cin >> b;
+        bool r = a * b % 10;
+        cout << a * b << " " << a * b % 10 << " " << r;
+    }
