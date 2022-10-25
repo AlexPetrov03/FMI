@@ -21,3 +21,15 @@ void tree(){
         }
      }
 }
+
+void log(){
+  int n, k;
+   cin >> n >> k;
+   int count = 0;
+   int k1 = k;
+   while(k <= n){
+      count++;
+      k *= k1;
+   }
+   cout << count;
+}
